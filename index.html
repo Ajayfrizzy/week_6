@@ -6,41 +6,42 @@
      <script src="index.js" defer></script>
     <title>Calculator Task</title>
 </head>
-<body class="bg-[#000] text-[#0ff]">
+<body class="bg-[#000] text-[#fff]">
     <h1 class="text-4xl text-center pt-[2rem]">Calculator</h1>
 
-    <section class="text-center rounded-md md:w-[40%] w-full md:mx-auto md:mt-[50px] m-[1rem] bg-[#fff] text-[#000] p-[20px]">
-
-        <span class="border-t border-r border-l rounded-t-md block text-right pr-[1rem] py-[1rem]" id="topNum"></span>
-        <span class="border-b border-r border-l block rounded-b-md mb-[1rem] text-right pr-[1rem] py-[1rem]" id="answer"></span>
+    <section class="text-center rounded-md md:w-[40%] w-full md:mx-auto md:mt-[50px] m-[1rem] p-[20px] bg-[#808080]">
+        <div class="my-[1rem] py-[0.5rem] rounded-md bg-[#fff] text-[#000] h-[100px]">
+            <span class="block text-right pr-[1rem]" id="topNum"></span>
+            <span class="block text-right pt-[1rem] pr-[1rem]" id="answer"></span>
+        </div>
 
         <div class="container">
             <div class="flex gap-[1rem] mb-[1rem]">
-                <button type="button" class="cursor-pointer border w-[25%] h-[50px] rounded-sm number">1</button>
-                <button type="button" class="cursor-pointer border w-[25%] h-[50px] rounded-sm number">2</button>
-                <button type="button" class="cursor-pointer border w-[25%] h-[50px] rounded-sm number">3</button>
-                <button type="button" class="cursor-pointer border w-[25%] h-[50px] rounded-sm operator">+</button>
+                <button type="button" class="cursor-pointer bg-[#fff] text-[#000] w-[25%] h-[50px] rounded-sm number">1</button>
+                <button type="button" class="cursor-pointer bg-[#fff] text-[#000] w-[25%] h-[50px] rounded-sm number">2</button>
+                <button type="button" class="cursor-pointer bg-[#fff] text-[#000] w-[25%] h-[50px] rounded-sm number">3</button>
+                <button type="button" class="cursor-pointer bg-[#fff] text-[#000] w-[25%] h-[50px] rounded-sm operator">+</button>
             </div>
     
             <div class="flex gap-[1rem] mb-[1rem]">
-                <button type="button" class="cursor-pointer border w-[25%] h-[50px] rounded-sm number">4</button>
-                <button type="button" class="cursor-pointer border w-[25%] h-[50px] rounded-sm number">5</button>
-                <button type="button" class="cursor-pointer border w-[25%] h-[50px] rounded-sm number">6</button>
-                <button type="button" class="cursor-pointer border w-[25%] h-[50px] rounded-sm operator">-</button>
+                <button type="button" class="cursor-pointer bg-[#fff] text-[#000] w-[25%] h-[50px] rounded-sm number">4</button>
+                <button type="button" class="cursor-pointer bg-[#fff] text-[#000] w-[25%] h-[50px] rounded-sm number">5</button>
+                <button type="button" class="cursor-pointer bg-[#fff] text-[#000] w-[25%] h-[50px] rounded-sm number">6</button>
+                <button type="button" class="cursor-pointer bg-[#fff] text-[#000] w-[25%] h-[50px] rounded-sm operator">-</button>
             </div>
     
             <div class="flex gap-[1rem] mb-[1rem]">
-                <button type="button" class="cursor-pointer border w-[25%] h-[50px] rounded-sm number">7</button>
-                <button type="button" class="cursor-pointer border w-[25%] h-[50px] rounded-sm number">8</button>
-                <button type="button" class="cursor-pointer border w-[25%] h-[50px] rounded-sm number">9</button>
-                <button type="button" class="cursor-pointer border w-[25%] h-[50px] rounded-sm operator">*</button>
+                <button type="button" class="cursor-pointer bg-[#fff] text-[#000] w-[25%] h-[50px] rounded-sm number">7</button>
+                <button type="button" class="cursor-pointer bg-[#fff] text-[#000] w-[25%] h-[50px] rounded-sm number">8</button>
+                <button type="button" class="cursor-pointer bg-[#fff] text-[#000] w-[25%] h-[50px] rounded-sm number">9</button>
+                <button type="button" class="cursor-pointer bg-[#fff] text-[#000] w-[25%] h-[50px] rounded-sm operator">*</button>
             </div>
     
             <div class="flex gap-[1rem] mb-[1rem]">
-                <button type="button" class="cursor-pointer border w-[25%] h-[50px] rounded-sm number">0</button>
-                <button type="button" class="cursor-pointer border w-[25%] h-[50px] rounded-sm equal">=</button>
-                <button type="button" class="cursor-pointer border w-[25%] h-[50px] rounded-sm clear">C</button>
-                <button type="button" class="cursor-pointer border w-[25%] h-[50px] rounded-sm operator">/</button>
+                <button type="button" class="cursor-pointer bg-[#fff] text-[#000] w-[25%] h-[50px] rounded-sm number">0</button>
+                <button type="button" class="cursor-pointer bg-[#fff] text-[#000] w-[25%] h-[50px] rounded-sm equal">=</button>
+                <button type="button" class="cursor-pointer bg-[#fff] text-[#000] w-[25%] h-[50px] rounded-sm clear">C</button>
+                <button type="button" class="cursor-pointer bg-[#fff] text-[#000] w-[25%] h-[50px] rounded-sm operator">/</button>
             </div>
         </div>
     </section>
